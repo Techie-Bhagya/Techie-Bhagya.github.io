@@ -1,0 +1,136 @@
+@import url("@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Open+Sans:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --input_color: rgba(0, 0, 0, 0.05);
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(130deg, #ff4c86, #ffce92);
+  height: 100vh;
+  overflow: hidden;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 450px;
+  width: 450px;
+  background: white;
+  border-radius: 20px;
+}
+
+.container h1 {
+  text-align: center;
+  padding: 0 0 20px 0;
+  margin-top: 50px;
+}
+
+.container h4 {
+  text-align: center;
+  padding: 0 0 20px 0;
+}
+.container h4 a {
+  outline: none;
+  text-decoration: none;
+}
+
+.container form {
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+input {
+  margin: 1px;
+  width: 100%;
+  padding: 0 15px;
+  height: 45px;
+  font-size: 16px;
+  border: none;
+  border-radius: 16px;
+  background: none;
+  outline: none;
+  background-color: var(--input_color);
+}
+
+input::placeholder {
+  font-style: italic;
+}
+
+.fullname-textfield .firstname {
+  margin: 1px;
+  width: 100%;
+  padding: 0 15px;
+  height: 45px;
+  font-size: 16px;
+  border: none;
+  border-radius: 16px 0 0 16px;
+  background: none;
+  outline: none;
+  background-color: var(--input_color);
+  font-style: italic;
+}
+.fullname-textfield .lastname {
+  margin: 10px 0;
+  width: 100%;
+  padding: 0 15px;
+  height: 45px;
+  font-size: 16px;
+  border: none;
+  border-radius: 0px 16px 16px 0;
+  background: none;
+  outline: none;
+  background-color: var(--input_color);
+  font-style: italic;
+}
+
+.signup-text-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  height: 45px;
+  width: 100%;
+  position: relative;
+}
+
+.signup-text-field .signup {
+  height: 45px;
+  width: 100%;
+  font-size: 20px;
+  border: none;
+  border-radius: 16px;
+  outline: none;
+  background-color: #3478d1;
+  color: white;
+}
+
+.signup-text-field i {
+  position: absolute;
+  right: 20px;
+  color: white;
+}
+
+.fullname-textfield {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.terms-of-service .checkbox {
+  height: 14px;
+  width: 14px;
+  margin-top: 20px;
+}
+.terms-of-service .tos {
+  outline: none;
+  text-decoration: none;
+}
